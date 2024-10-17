@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+/*
+@font-face{
+    font-family: 'young-serif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*/
+
+@font-face{
+    font-family: 'young-serif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+/*//////////fonts//////////////////////*/
+.young-serif {
+    font-family: 'young-serif';
+    font-weight: 500;
+}
+
+.fonts-color-gray {
+    color: #5e5b58;
+}
+
+/*////////////////////////////////*/
+
+.color-orange {
+    color: #844731;
+}
+
+.color-violet {
+   color: #7e2f50;
+
+}
+
+/*////////////////////////////////*/
+
+body{
+    margin: 30px;
+    padding: 0;
+    background-color: #f3e5d8;
+}
+
+/*////////////////////////////////*/
+
+.container {
+    font-family: 'outfit';
+    width: 100%;
+    max-width: 800px;
+    min-width: 360px;
+    margin: auto;
+    padding: 45px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/*///////////Image/////////////////////*/
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*////////////////////////////////*/
+
+h1 {
+    font-family: 'young-serif';
+    font-weight: 500;
+    color: #2f2b2a;
+}
+
+/*///////////parrafo/////////////////////*/
+
+.intro {
+    font-family: 'outfit';
+    font-size: 16px;
+    
+}
+
+/*///////////Preparation time/////////////////////*/
+
+.ul-preparation {
+    padding-left: 28px;
+}
+
+.bullet {
+    padding-right: 28px;
+    margin-right: px;
+}
+
+h3 {
+    margin-left: 30px;   
+}
+
+.preparation-time {
+    background-color: #fff7fc;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.time {
+    padding: 15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.li-preparation {
+    margin: 10px;
+
+}
+
+/*///////////Ingredients/////////////////////*/
+
+.bullet-2 {
+    margin-right: 20px
+}
+
+.ul-ingredients {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.li-ingredients {
+    margin-bottom: 10px;
+}
+
+/*/////////Intructions///////////////////////*/
+
+.ol-intructions {
+    padding: 0;
+    padding-left: 5px;
+}
+
+.li-intructions {
+     display: flex;
+}
+
+.p-intructions {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.number-size {
+    font-weight: 700;
+}
+
+/*///////////Nutrition table/////////////////////*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td {
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.td-calories {
+   padding-left: 40px;
+}
+
+.td-calories2 {
+    font-weight: 700;
+    padding-right: 50px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(207, 207, 207);
+}
+
+.table-tr {
+    border-bottom: none;
+}
